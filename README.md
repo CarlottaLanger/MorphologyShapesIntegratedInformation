@@ -2,7 +2,8 @@
 ## Introduction
 This repository contains the code and sampled data of the experiments described in the paper "How Morphological Computation shapes Integrated Information in Embodied Agents" https://arxiv.org/pdf/2108.00904.pdf (Preprint). 
 
-In this paper we analyze the information flow among the world, an agent's body and its environment. In this small toy example the agents consist of a body with two sensors, they are moving in a racetrack and their goal is to not touch the walls within the next two steps. We do not use a learning algorithm, but calculate the optimal behavior of the agent using the concept "Planning as Inference". In order to do that we need to sample the environment. 
+In this paper we analyze the information flow among the world, an agent's body and its environment. In this small toy example the agents consist of a body with two sensors, they are moving in a racetrack and their goal is to not touch the walls within the next two steps. The implementation of the racetrack and the design of the agents is due to Nathaniel Virgo.
+We do not use a learning algorithm, but calculate the optimal behavior of the agent using the concept "Planning as Inference". In order to do that we need to sample the environment. 
 
 ## The Sampling
 
