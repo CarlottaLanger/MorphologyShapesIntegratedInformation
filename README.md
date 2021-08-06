@@ -7,7 +7,9 @@ In this paper we analyze the information flow among the world, an agent's body a
 ## The Sampling
 
 In order to get the empirical distribution of how the agent perceives its environment, we sample the sensory and motor values of agents performing random tasks. The code of the sampling can be found in the "sampleWorldandGoal.py" file. The random movements can be seen in the video below.  
+
 https://user-images.githubusercontent.com/21078779/128511657-26f15662-3abc-4723-be36-f4d489aab8f5.mp4
+
 The sampled data for the sensor length 0.5 to 2.75 can be found in the "SampledData" foulder. 
 
 ## Planning as Infernce
