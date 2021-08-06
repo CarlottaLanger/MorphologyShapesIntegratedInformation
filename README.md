@@ -1,4 +1,4 @@
-# Morphology Computation shapes IntegratedInformation in Embodied Agents
+# Morphology Computation shapes Integrated Information in Embodied Agents
 ## Introduction
 This repository contains the code and sampled data of the experiments described in the paper "How Morphological Computation shapes Integrated Information in Embodied Agents" https://arxiv.org/pdf/2108.00904.pdf (Preprint). 
 
