@@ -4,5 +4,9 @@ This repository contains the code and sampled data of the experiments described 
 
 In this paper we ... the ... . The agents are moving in a racetrack. In order to sample the environment, we 
 
-https://user-images.githubusercontent.com/21078779/128354419-4ea247c7-e9f6-4ea2-91a2-945584565ec0.mp4
+
+
+https://user-images.githubusercontent.com/21078779/128511657-26f15662-3abc-4723-be36-f4d489aab8f5.mp4
+
+
 
