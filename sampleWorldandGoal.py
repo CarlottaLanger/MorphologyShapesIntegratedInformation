@@ -189,12 +189,12 @@ def main():
         if j%1000 == 0 : print('j', j)
         for i in range(n_agents):
             agents[i].set(0.0)
-        #first step
+        #performing two steps
         for k in range(updates_per_generation-1):
             alive = [agent.update(plot=False) for agent in agents]
             for i in range(n_agents):
                 agents[i].it = agents[i].it +1
-        #second step
+        #third step to see whether agent is alive
         for i in range(n_agents):
             alive[i] = agents[i].update(plot=True,plot_sensors=True)
             agents[i].it = agents[i].it + 1
