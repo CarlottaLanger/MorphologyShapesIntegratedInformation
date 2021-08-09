@@ -16,7 +16,7 @@ The sampled data for the sensor length 0.5 to 2.75 can be found in the "SampledD
 ## Planning as Infernce
 
 Following the concept of "Planning as Inference" we optimize the likelihood of success by projecting iteratively to a goal manifold and an agent manifold, as described in the appendix of https://arxiv.org/pdf/2108.00904.pdf. These projections are implemented in the file "emAlgorInference.py" in the methods 
-"conditioning" (e-projection) and the method "factorizing" (m-projection). The method "emAlg" calls for every sensor length the method "emAlgit" in which the iteration is implemented. Then the different measures are calculated and written in form of a vector to a file specified in the "main.py" function. This is done 3 times for one random input distribution, for the fully coupled agents, the controller driven agents and the reactive control agents.
+"conditioning" (e-projection) and "factorizing" (m-projection). The method "emAlg" calls for every sensor length the method "emAlgit" in which the iteration is implemented. Then the different measures are calculated and written in form of a vector to a file specified in the "main.py" function. This is done 3 times for one random input distribution, namely for the fully coupled agents, the controller driven agents and the reactive control agents.
 
 ## Different Measures of the Information Flow
 
