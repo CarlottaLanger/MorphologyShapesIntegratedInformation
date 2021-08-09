@@ -9,7 +9,9 @@ We do not use a learning algorithm, but calculate the optimal behavior of the ag
 
 In order to get the empirical distribution of how the agent perceives its environment, we sample the sensory and motor values of agents performing two random movements. The code of the sampling can be found in the "sampleWorldandGoal.py" file. The random movements can be seen in the video below.  
 
-https://user-images.githubusercontent.com/21078779/128511657-26f15662-3abc-4723-be36-f4d489aab8f5.mp4
+
+https://user-images.githubusercontent.com/21078779/128687011-1356d62b-6c85-4b8b-98a9-c119bd0b17dd.mp4
+
 
 The sampled data for the sensor length 0.5 to 2.75 can be found in the "SampledData" foulder. The agents in the video above have a sensor lenth of 1.5. 
 
